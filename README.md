@@ -7,6 +7,10 @@ theochembp
 
 A sample repo for the TheoChem best practices workshop.
 
+This project is under development. To do a development install, download the repository and type
+
+`pip install -e .`
+
 ### Copyright
 
 Copyright (c) 2022, Jessica Nash
