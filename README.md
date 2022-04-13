@@ -11,6 +11,10 @@ This project is under development. To do a development install, download the rep
 
 `pip install -e .`
 
+This package requires:
+    - numpy
+    - matplotlib
+
 ### Copyright
 
 Copyright (c) 2022, Jessica Nash
