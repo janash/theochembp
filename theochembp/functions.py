@@ -7,7 +7,26 @@ from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
 
 
 def calculate_distance(rA, rB):
-    # This function calculates the distance between two points given as numpy arrays.
+    """
+    Calculate the distance between two points.
+
+    Parameters
+    ----------
+    rA, rB : np.ndarray
+        The coordinates of each point.
+
+    Returns
+    -------
+    distance : float
+        The distance between the two points.
+
+    Examples
+    --------
+    >>> r1 = np.array([0, 0, 0])
+    >>> r2 = np.array([0, 1.0, 0])
+    >>> calculate_distance(r1, r2)
+    1.0
+    """
     d = rA - rB
     dist = np.linalg.norm(d)
     return dist
@@ -113,7 +132,9 @@ def draw_molecule(coordinates, symbols, draw_bonds=None, save_location=None, dpi
     return ax
 
 
-def calculate_angle(rA, rB, rC, degrees=False):
+def calculate_angle(
+    rA: np.ndarray, rB: np.ndarray, rC: np.ndarray, degrees: bool = False
+):
     # Calculate the angle between three points. Answer is given in radians by default, but can be given in degrees
     # by setting degrees=True
     AB = rB - rA
