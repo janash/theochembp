@@ -1,8 +1,8 @@
 theochembp
 ==============================
 [//]: # (Badges)
-[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/theochembp/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/theochembp/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/theochembp/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/theochembp/branch/master)
+[![CI](https://github.com/janash/theochembp/actions/workflows/CI.yaml/badge.svg)](https://github.com/janash/theochembp/actions/workflows/CI.yaml)
+[![codecov](https://codecov.io/gh/janash/theochembp/branch/main/graph/badge.svg?token=X3BW1N9BBA)](https://codecov.io/gh/janash/theochembp)
 
 
 A sample repo for the TheoChem best practices workshop.
