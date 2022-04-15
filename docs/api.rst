@@ -5,3 +5,4 @@ API Documentation
    :toctree: autosummary
 
    theochembp.canvas
+   theochembp.calculate_distance

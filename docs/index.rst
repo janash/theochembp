@@ -5,6 +5,14 @@
 
 Welcome to theochembp's documentation!
 =========================================================
+theochembp is a Python package designed to read in, perform analysis,
+and visualize molecular coordinates. The file formats `xyz` and `pdb` are supported.
+
+.. code-block:: python
+
+   import theochembp
+
+   print("hello world")
 
 .. toctree::
    :maxdepth: 2
